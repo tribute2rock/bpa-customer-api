@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "bpa-customer",
+      "script": "src/index.js",
+      "instances": "max",
+      "exec_mode" : "cluster",
+      "autorestart": true,
+      "watch": false,
+      "cron_restart": "0 0 * * *",
+      "time": true,
+      "out_file": "logs/pm2_logs",
+      "error_file": "logs/pm2_error",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

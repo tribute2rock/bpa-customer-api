@@ -1,0 +1,26 @@
+\node_modules
+
+\build
+\dist
+\temp
+\doc
+\manual
+\logs
+\ssl
+\public
+
+.env
+package-lock.json
+.vscode
+uploads
+
+
+#dynamic Model
+/src/models/dynamic
+
+
+#dynamic Routes
+# /src/routes/v1/dynamicRoutes.js
+
+#dynamic Controller
+/src/controllers/dynamic
